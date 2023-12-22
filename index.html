@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <div class="left-side">
+      <h2>Your Result</h2>
+      <div class="total-score">
+        <span class="number">76</span>
+        <span>of 100</span>
+      </div>
+      <h1>Great</h2>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="right-side">
+      <h2>Summary</h2>
+      <div class="scores-wrapper">
+        <div class="summary-score box reaction">
+          <div class="text-icon">
+            <img src="assets\images\icon-reaction.svg" alt="Bolt Icon">
+            <h3>Reaction</h3>
+          </div>
+          <span><span class="percentage">80</span><span class="total-p"> / 100</span></span>
+        </div>
+        <div class="summary-score box memory">
+          <div class="text-icon">
+            <img src="assets\images\icon-memory.svg" alt="Brain Icon">
+            <h3>Memory</h3>
+          </div>
+          <span><span class="percentage">92</span><span class="total-p"> / 100</span></span>
+        </div>
+        <div class="summary-score box verbal">
+          <div class="text-icon">
+            <img src="assets\images\icon-verbal.svg" alt="Chat Bubble Icon">
+            <h3>Verbal</h3>
+          </div>
+          <span><span class="percentage">61</span><span class="total-p"> / 100</span></span>
+        </div>
+        <div class="summary-score box visual">
+          <div class="text-icon">
+            <img src="assets\images\icon-visual.svg" alt="Eye Icon">
+            <h3>Visual</h3>
+          </div>
+          <span><span class="percentage">72</span><span class="total-p"> / 100</span></span>
+        </div>
+      </div>
+      <button><a href="#">Continue</a></button>
+    </div>
+  </div>
+</body>
+
+</html>
